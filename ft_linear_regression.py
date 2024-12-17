@@ -30,6 +30,7 @@ class LinearRegression:
 
     def calculate_loss(self):
         """Calculate the loss. (Mean Squared Error)
+        MSE = (1/n) * E(pred_y - true_y)^2
 
         Returns:
             float: return the loss.

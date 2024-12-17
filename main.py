@@ -56,6 +56,14 @@ def save_params(X, y, w, b):
 
 
 def plot_result(nX, ny, w, b):
+    """Plot the result of the linear regression.
+
+    Args:
+        nX (list): normalised car mileage.
+        ny (list): normalised car price.
+        w (float): weight.
+        b (float): bias.
+    """
     plt.yscale('linear')
     plt.scatter(nX, ny, color='red')
     plt.axline((0, b), slope=w)
