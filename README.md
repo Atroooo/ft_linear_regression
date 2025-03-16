@@ -2,6 +2,11 @@ ft_linear_regression is a 42's project that aims to recreate a linear regression
 
 To run the project you need Python 3.12 and run the following commands:
 ```bash
+git clone https://github.com/Atroooo/ft_linear_regression.git
+cd ft_linear_regression
+```
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install pandas
